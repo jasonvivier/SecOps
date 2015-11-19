@@ -1,0 +1,20 @@
+wmic bios get serialnumber
+wmic diskdrive get status
+rd /s c:\$Recycle.Bin
+rd /s c:\recycler
+
+
+
+86PXV-P2HKP-32RH4-7JY6V-GP4BQ
+
+HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Common\Graphics
+DWORD: DisableHardwareAcceleration
+Value: 1 to disable
+
+Exchange stuff:
+Dismount-Database -Indentity 
+Move-DatabasePath "Mailbox Database 1" -EdbFilePath "E:\Mailbox Database 1\Mailbox Database 1.edb" -LogFolderPath "F:\Mailbox Database 1"
+Mount-Database -Identity 
+
+\\OHIO-HYPERV\D$\Speedvault
+OHIO-HYPERV\administrator
